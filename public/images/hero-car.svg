@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300">
+  <defs>
+    <linearGradient id="paint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5aa0ff"/>
+      <stop offset="0.55" stop-color="#1d6fe0"/>
+      <stop offset="1" stop-color="#0b3d91"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfe6ff"/>
+      <stop offset="1" stop-color="#6e8fb8"/>
+    </linearGradient>
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="322" cy="262" rx="290" ry="18" fill="#000" opacity="0.35"/>
+  <path d="M40 210 C40 180 70 170 110 165 L200 155 C232 118 282 96 342 94 C402 92 452 114 492 150 L562 160 C592 165 607 180 607 205 L607 222 C607 230 600 234 592 234 L55 234 C46 234 40 228 40 220 Z" fill="url(#paint)"/>
+  <path d="M218 155 C242 128 282 112 335 110 L340 155 Z" fill="url(#glass)"/>
+  <path d="M356 110 C400 112 440 128 470 153 L356 155 Z" fill="url(#glass)"/>
+  <rect x="90" y="176" width="440" height="6" rx="3" fill="url(#streak)"/>
+  <path d="M560 175 L600 182 L600 192 L566 190 Z" fill="#fde68a"/>
+  <path d="M44 190 L70 186 L70 198 L44 200 Z" fill="#f87171"/>
+  <circle cx="162" cy="234" r="44" fill="#0f172a"/>
+  <circle cx="162" cy="234" r="26" fill="#cbd5e1"/>
+  <circle cx="162" cy="234" r="9" fill="#475569"/>
+  <circle cx="490" cy="234" r="44" fill="#0f172a"/>
+  <circle cx="490" cy="234" r="26" fill="#cbd5e1"/>
+  <circle cx="490" cy="234" r="9" fill="#475569"/>
+  <path d="M400 52 L404.5 65.5 L418 70 L404.5 74.5 L400 88 L395.5 74.5 L382 70 L395.5 65.5 Z" fill="#ffffff" opacity="0.9"/><path d="M250 49 L252.75 57.25 L261 60 L252.75 62.75 L250 71 L247.25 62.75 L239 60 L247.25 57.25 Z" fill="#ffffff" opacity="0.9"/><path d="M560 107 L563.25 116.75 L573 120 L563.25 123.25 L560 133 L556.75 123.25 L547 120 L556.75 116.75 Z" fill="#ffffff" opacity="0.9"/><path d="M120 121 L122.25 127.75 L129 130 L122.25 132.25 L120 139 L117.75 132.25 L111 130 L117.75 127.75 Z" fill="#ffffff" opacity="0.9"/>
+</svg>

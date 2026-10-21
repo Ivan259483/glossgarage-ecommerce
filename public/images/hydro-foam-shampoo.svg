@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f7fc"/>
+      <stop offset="1" stop-color="#dfe7f3"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f4fb0"/>
+      <stop offset="0.45" stop-color="#1d6fe0"/>
+      <stop offset="1" stop-color="#0f4fb0"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6b7280"/>
+      <stop offset="0.5" stop-color="#e5e7eb"/>
+      <stop offset="1" stop-color="#6b7280"/>
+    </linearGradient>
+    <linearGradient id="black" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.5" stop-color="#374151"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bg)"/>
+  <circle cx="510" cy="70" r="120" fill="#5aa0ff" opacity="0.12"/>
+  <circle cx="70" cy="400" r="90" fill="#5aa0ff" opacity="0.10"/>
+  <ellipse cx="300" cy="392" rx="170" ry="16" fill="#0f172a" opacity="0.12"/>
+  
+  <rect x="275" y="118" width="50" height="34" rx="6" fill="url(#black)"/>
+  <path d="M248 150 L352 150 Q382 160 384 200 L384 360 Q384 386 358 386 L242 386 Q216 386 216 360 L216 200 Q218 160 248 150 Z" fill="url(#body)"/>
+  <path d="M352 168 Q404 170 404 222 Q404 262 384 268 L384 246 Q392 240 392 222 Q392 186 362 184 Z" fill="#0f4fb0"/>
+  <rect x="230" y="176" width="16" height="196" rx="8" fill="url(#shine)"/>
+  <rect x="240" y="222" width="120" height="120" rx="10" fill="#ffffff" opacity="0.96"/>
+  <text x="300" y="242" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#0f4fb0">GLOSSGARAGE</text>
+  <text x="300" y="282" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#0f172a">HYDRO</text><text x="300" y="306" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#0f172a">FOAM</text>
+  <rect x="256" y="326" width="88" height="5" rx="2.5" fill="#1d6fe0"/>
+  <path d="M470 136 L473.5 146.5 L484 150 L473.5 153.5 L470 164 L466.5 153.5 L456 150 L466.5 146.5 Z" fill="#ffffff" opacity="0.9"/><path d="M130 110 L132.5 117.5 L140 120 L132.5 122.5 L130 130 L127.5 122.5 L120 120 L127.5 117.5 Z" fill="#ffffff" opacity="0.9"/><path d="M500 292 L502 298 L508 300 L502 302 L500 308 L498 302 L492 300 L498 298 Z" fill="#ffffff" opacity="0.9"/>
+</svg>
